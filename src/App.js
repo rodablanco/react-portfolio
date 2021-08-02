@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './components/Navbar';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>HELLO MY NAME IS ROD THIS IS MY REACT PORTFOLIO</h1>
-    </div>
+  <div className="App">
+  
+     <Navbar/>
+  </div>
+
   );
 }
 
