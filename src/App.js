@@ -17,13 +17,13 @@ function App() {
           <Navbar />
       
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/react-portfolio">
                 
                 <AboutMe />
               </Route>
               <Route exact path="/about">
               </Route>
-              {/* need to move */}
+             
               <Route exact path="/projects" component={Projects} />
               <Route exact path="/contact">
                 <Contact />
@@ -31,7 +31,7 @@ function App() {
               <Route exact path="/resume">
                 <Resume />
               </Route>
-              <Route  exact path="*" component={NotFound} />
+              <Route  exact path="/*" component={NotFound} />
             </Switch>
          
         </Router>
