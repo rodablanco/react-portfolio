@@ -7,7 +7,7 @@ const styles ={
   card:{
       width:'80vw',
       alignItems: 'center',
-      margin: "15vh 0 0 0 "
+      
   },
   container:{
       justifyContent: 'center',
